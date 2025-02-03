@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            margin: 0px;
+            padding: 0px;
+            
+  
+        } */
+        body {
+            background: url("cubes-3381438_1280.jpg");
+            background-size: cover;
+            display: flex;
+        }
+
+        .container {
+            background: url("abstract-5719221_1280.jpg");
+            background-size: cover;
+            margin: 300px auto;
+            padding: 20px;
+            width: 800px;
+            text-align: center;
+            border-radius: 12px;
+            height: 400px;
+            box-shadow: 0px 0px 15px 0px;
+            position: relative;
+            border-color: black;
+
+        }
+
+        .container h2 {
+            border: 2px solid black;
+            border-radius: 14px;
+            background-color: rgb(163, 177, 172);
+            text-align: center;
+            align-items: center;
+            color: rgb(255, 236, 236);
+
+        }
+        h3{
+            color:rgb(255, 236, 236); 
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .input {
+            text-align: center;
+            border: 2px solid rgb(53, 56, 55);
+            margin: 1rem;
+            color: black;
+            padding: 1rem 2rem;
+            border-radius: 3rem;
+            width: 15rem;
+            font-size: 1.2rem;
+            outline: none;
+            transition: all .2s ease-in-out;
+            /* background:none; */
+            font-style: italic;
+
+
+
+        }
+
+        .btn {
+            margin-top: 8px;
+            background-color: black;
+            color: white;
+            padding: 5px 6px 5px 6px;
+            border-radius: 6px;
+            width: 10rem;
+        }
+
+        .btn:hover {
+            background-color: rgb(163, 177, 172);
+        }
+
+        .input,.container h2:focus {
+            width: 15rem;
+            animation-name: colorChange;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+        }
+
+
+        @keyframes colorChange {
+
+            0% {
+                border-color: green;
+
+            }
+
+            10% {
+                border-color: yellow;
+
+
+            }
+
+            20% {
+                border-color: hotpink;
+
+            }
+
+            30% {
+                border-color: red;
+
+            }
+
+            40% {
+                border-color: purple;
+
+            }
+
+            50% {
+                border-color: yellow;
+
+
+            }
+
+            60% {
+                border-color: cyan;
+
+            }
+
+            70% {
+                border-color: skyblue;
+
+            }
+
+            80% {
+                border-color: pink;
+
+            }
+
+            90% {
+                border-color: red;
+
+            }
+
+            100% {
+                border-color: yellow;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>ONLINE SHOPPING SYSTEM</h2>
+        <h3>LOGIN</h3>
+        <form action="">
+            <div>
+                <input type="text" placeholder="Username" class="input">
+            </div>
+            <div>
+                <input type="password" placeholder="Password" class="input">
+            </div>
+            <div>
+                <h3><a href="#">Forgot Password</a></h3>
+            </div>
+            <div>
+                <button class="btn">
+                    Login
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
